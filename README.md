@@ -27,7 +27,7 @@ Static HTML site. No build tools needed. Upload the whole folder to any host (Ne
 4. **Unpacking photo:** add `images/unpacking.jpg` (styled kitchen or closet), or the gold placeholder frame shows.
 5. **Logo:** add `images/logo.png` and swap it in (see comment in each page's header).
 6. **Testimonials:** add first name + city if clients approve (e.g. "Jennifer R., Boca Raton").
-7. **Photos** currently load from the live site's /images folder. If the old site gets taken down, copy those 4 images into an `images/` folder and update the `IMG` path.
+7. **Photos** are stored in the `images/` folder (resized for fast loading). To swap one, replace the file and keep the same name.
 
 ## Hooking up the form
 Right now the form opens the visitor's email app with everything filled in, so no lead is lost.
