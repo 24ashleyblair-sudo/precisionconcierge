@@ -34,4 +34,4 @@ Right now the form opens the visitor's email app with everything filled in, so n
 To send leads straight to a CRM (GoHighLevel, Formspree, etc.), paste the webhook URL into `FORM_ENDPOINT` at the top of the form section in `js/main.js`.
 
 ## Hosting note
-Links use `.html` file names so the site works when you double-click to preview. Most hosts also serve clean URLs (`/about`), which match the old site's links.
+Links use clean addresses (`/about`, not `about.html`), matching the old site's links. Because of this, clicking around only works on the live site or a local server (run `python3 -m http.server` in this folder, then open http://localhost:8000), not by double-clicking the files.
